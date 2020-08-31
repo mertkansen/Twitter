@@ -1,0 +1,20 @@
+/* CSS Global variable */
+/* This one applied, works in the entire Body scope */
+body {
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+
+    /* when you go full screen, this'll add margin from left and right */
+    width: 100vw;
+
+    /* when you hit the 1300px width, this lines will center our page */
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0 10px;
+}
