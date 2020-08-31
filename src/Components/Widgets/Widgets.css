@@ -1,6 +1,8 @@
 .widgets {
     flex: 0.3;
-    margin-right: -60px;
+    align-items: flex-end;
+    max-width: 400px;
+    padding: 0 20px;
 }
 
 .widgets__input {
